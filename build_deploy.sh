@@ -6,7 +6,7 @@ APP_REPO_URL="git@github.com:fbalint2001/flask-app.git"  # SSH URL
 APP_DIR="./temp_flask_app"
 IMAGE_NAME="flask-app:latest"
 
-# Repo klónozása vagy frissítése
+# Update or download application repo
 if [ -d "$APP_DIR" ]; then
     echo "Updating existing app repo..."
     cd $APP_DIR
